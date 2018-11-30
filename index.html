@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Chuck Findlay's home page">
+    <meta name="author" content="Chuck Findlay">
+
+    <title>Chuck Findlay</title>
+
+    <link href="css/bootstrap.4.0.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Chuck Findlay</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#" onclick="viewHome(); navSelected(this);">Home</a>
+            <a class="nav-link" id="viewContact" href="#" onclick="viewContact(); navSelected(this);">Contact</a>
+            <a class="nav-link" target="_blank" href="http://ca.linkedin.com/pub/charles-findlay/93/680/93/">Linkedin</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <div id="content">
+
+        </div>
+      </main>
+
+      <script type="text/javascript">
+        window.onload = viewHome();
+      </script>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+            Copyright 2018 Chuck Findlay.
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>
