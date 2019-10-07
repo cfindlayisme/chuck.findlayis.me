@@ -1,3 +1,3 @@
 steps:
-  - name: gcr.io/cloud-builders/gsutil
+  - name: .
     args: ["-m", "rsync", "-r", "-c", "-d", "./vision/explore-api", "gs://chuck.findlayis.me"]
